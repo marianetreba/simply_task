@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^test.vauprint.ua$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.test.vauprint.ua$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/index.php [L]

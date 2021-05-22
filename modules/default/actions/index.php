@@ -1,0 +1,3 @@
+<?php
+
+Response::redirect('/tasks');

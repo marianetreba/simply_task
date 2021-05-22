@@ -1,0 +1,9 @@
+{
+  "name": "simplytask/ui",
+  "description": "",
+  "require": {
+    "ext-json": "*",
+    "jenssegers/optimus": "^1.0",
+    "ext-pgsql": "*"
+  }
+}

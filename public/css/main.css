@@ -1,0 +1,13 @@
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #888;
+    text-decoration: none;
+}
+
+div.actions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form .c.req > label:not(.inline):not(:empty)::after, form .c > label.inline.req::after { content: ' *'; color: red; }
